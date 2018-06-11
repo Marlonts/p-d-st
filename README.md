@@ -1,27 +1,30 @@
-# JAVA JDK
+## pip
+$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+$ sudo python get-pip.py
+
+## JAVA JDK
 https://stackoverflow.com/questions/14788345/how-to-install-the-jdk-on-ubuntu-linux
 
-# Apache
-sudo apt-get install apache2
+## Apache
+$ sudo apt-get install apache2
 $ sudo pip install pyspark
 
 http://localhost:4040/
 http://localhost:4040/jobs/
 
------------------------------------------------------------------------------------------------
 
-# Download Spark: spark-2.3.0-bin-hadoop2.7.tgz
+-----------------------------------------------------------------------------------------------
+## Download Spark: spark-2.3.0-bin-hadoop2.7.tgz
 http://spark.apache.org/downloads.html
 	http://ftp.unicamp.br/pub/apache/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz 
 
-ou 
-
-$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-$ sudo python get-pip.py
-
+## Pyspark
+$ sudo pip install pyspark
 
 # Interactive Analysis with the Spark Shell
-./bin/spark-shell
+$ ./bin/spark-shell
+ou
+$ pyspark
 
 -----------------------------------------------------------------------------------------------
 # Spark
