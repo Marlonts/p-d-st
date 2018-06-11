@@ -1,5 +1,6 @@
 ### Java jdk
-1. Update repository:
+1. Update repository
+
 	$ sudo add-apt-repository ppa:openjdk-r/ppa
 	$ sudo apt-get update
 2. Run the following command in Terminal:
