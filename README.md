@@ -1,13 +1,45 @@
 ### Java jdk
-https://stackoverflow.com/questions/14788345/how-to-install-the-jdk-on-ubuntu-linux
+Update repository:
+$ sudo add-apt-repository ppa:openjdk-r/ppa
+$ sudo apt-get update
+
+Run the following command in Terminal:
+
+$sudo apt-get install openjdk-8-jdk
+$ sudo apt-get install openjdk-8-source #this is optional, the jdk source code
+
+Type commandline as below...
+
+a$ pt-cache search jdk
+
+(Note: openjdk-8-jdk is symbolically used here. You can choose the JDK version as per your requirement.)
+
+For "JAVA_HOME" (Environment Variable) type command as shown below, in "Terminal" using your installation path...
+
+$ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
+
+(Note: "/usr/lib/jvm/java-8-openjdk" is symbolically used here just for demostration. You should use your path as per your installation.)
+
+For "PATH" (Environment Variable) type command as shown below, in "Terminal" using your installation path...
+
+$ export PATH=$PATH:/usr/lib/jvm/java-8-openjdk/bin
+
+(Note: "/usr/lib/jvm/java-8-openjdk" is symbolically used here just for demostration. You should use your path as per your installation.)
+
+Check for "open jdk" installation, just type command in "Terminal" as shown below
+
+$ javac -version
+
+
+
 
 ### pip
-$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-$ sudo python get-pip.py
+	$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+	$ sudo python get-pip.py
 
 ### Apache
-$ sudo apt-get install apache2
-$ sudo pip install pyspark
+	$ sudo apt-get install apache2
+	$ sudo pip install pyspark
 
 http://localhost:4040/
 http://localhost:4040/jobs/
@@ -15,21 +47,21 @@ http://localhost:4040/jobs/
 
 -----------------------------------------------------------------------------------------------
 
-## Download Spark: spark-2.3.0-bin-hadoop2.7.tgz
+### Download Spark: spark-2.3.0-bin-hadoop2.7.tgz
 http://spark.apache.org/downloads.html
 	http://ftp.unicamp.br/pub/apache/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz 
 
-## Pyspark
+### Pyspark
 $ sudo pip install pyspark
 
-# Interactive Analysis with the Spark Shell
+### Interactive Analysis with the Spark Shell
 $ ./bin/spark-shell
 ou
 $ pyspark
 
 -----------------------------------------------------------------------------------------------
 
-# Spark
+### Spark
 https://pt.linkedin.com/pulse/machine-learning-com-apache-spark-uma-introdu%C3%A7%C3%A3o-%C3%A0-de-teixeira-phd
 https://www.datacamp.com/community/tutorials/apache-spark-python
 https://spark.apache.org/docs/latest/quick-start.html
@@ -39,21 +71,21 @@ http://www.vitormeriat.com.br/2016/01/27/spark-alm-do-wordcount/
 https://docs.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-machine-learning-mllib-ipython
 https://www.infoq.com/br/articles/apache-spark-introduction
 
-# Spark examples
+### Spark examples
 https://spark.apache.org/examples.html
 https://github.com/apache/spark/tree/master/examples
 
-# Pyspark + Elastic Search
+### Pyspark + Elastic Search
 https://github.com/TargetHolding/pyspark-elastic
 https://starsift.com/2018/01/18/integrating-pyspark-and-elasticsearch/
 https://qbox.io/blog/elasticsearch-in-apache-spark-python?utm_source=qbox.io&utm_medium=article&utm_campaign=elasticsearch-in-apache-spark-python
 
-# Apache Spark Streaming Tutorial: Identificando as Hashtags de Tendência do Twitter 
+### Apache Spark Streaming Tutorial: Identificando as Hashtags de Tendência do Twitter 
 http://gtezini.blogspot.com/2017/07/apache-spark-streaming-tutorial.html
 
 -----------------------------------------------------------------------------------------------
 
-# Principais características:
+### Principais características:
     O Spark é escrito na linguagem Scala e executa em uma máquina virtual Java (JVM).
     Processamento rápido – todo o processamento em geral é feito em memória, e com reduzido processamento em disco, o que o torna muito mais rápido e eficiente.
     Expande de maneira mais eficiente a capacidade de processamento de operações Map+Reduce.
@@ -70,7 +102,7 @@ O Spark pode ser usado na sua máquina local, em modo Standalone, que é o ideal
 
 -----------------------------------------------------------------------------------------------
 
-# Exemplos de operações de transformação:
+### Exemplos de operações de transformação:
 • map (func) - retorna um novo RDD aplicando a função func em
 cada elemento.
 • filter (func) - retorn um novo RDD aplicando o filtro func.
