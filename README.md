@@ -43,9 +43,11 @@ http://localhost:4040/jobs/
 
 -----------------------------------------------------------------------------------------------
 
-### Download Spark: spark-2.3.0-bin-hadoop2.7.tgz
-http://spark.apache.org/downloads.html
-	http://ftp.unicamp.br/pub/apache/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz 
+### Download Spark
+
+	http://spark.apache.org/downloads.html
+
+		http://ftp.unicamp.br/pub/apache/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz 
 
 ### Pyspark
 	$ sudo pip install pyspark
@@ -53,6 +55,7 @@ http://spark.apache.org/downloads.html
 ### Interactive Analysis with the Spark Shell
 	$ ./bin/spark-shell
 ou
+
 	$ pyspark
 
 -----------------------------------------------------------------------------------------------
@@ -90,38 +93,36 @@ http://gtezini.blogspot.com/2017/07/apache-spark-streaming-tutorial.html
     Possibilita trabalhar com grafos com a biblioteca GraphX.
     Realiza processamento de análises complexas (machine learning) através da biblioteca MLlib.
 
-Em resumo, o Spark possui 4 bibliotecas principais: SparkSQL, Streaming, GraphX e a biblioteca de Machine Learning, MLlib.
-
-Além da linguagem Scala que é a linguagem “nativa”, o Spark também dispõe de APIs para outras 3 linguagens de programação: Python, R e Java. A figura abaixo mostra os principais componentes do Spark.
-
-O Spark pode ser usado na sua máquina local, em modo Standalone, que é o ideal para aprender a usar, ou pode instalá-lo para uso em um cluster, para efetivamente trabalhar em processamento distribuído. N
+	Em resumo, o Spark possui 4 bibliotecas principais: SparkSQL, Streaming, GraphX e a biblioteca de Machine Learning, MLlib.
+	Além da linguagem Scala que é a linguagem “nativa”, o Spark também dispõe de APIs para outras 3 linguagens de programação: Python, R e Java. A figura abaixo mostra os principais componentes do Spark.
+	O Spark pode ser usado na sua máquina local, em modo Standalone, que é o ideal para aprender a usar, ou pode instalá-lo para uso em um cluster, para efetivamente trabalhar em processamento distribuído. N
 
 -----------------------------------------------------------------------------------------------
 
 ### Exemplos de operações de transformação:
-• map (func) - retorna um novo RDD aplicando a função func em
-cada elemento.
-• filter (func) - retorn um novo RDD aplicando o filtro func.
-• flatMap (func) - similar ao map, mas retornando mais itens ao invés
-de apenas um.
-• sample(withReplacement, fração, semente) - amostra aleatoriamente
-uma fração dos dados com ou sem reposição usando a semente para
-gerar os números aleatórios.
-• union(rdd) - retorna um novo RDD que contém a união dos ele-
-mentos do RDD original e do RDD passado como argumento.
-• distinct() - retorna um novo dataset contendo os valores distintos
-do RDD original.
-• groupByKey() - aplicado em pair RDD’s da forma (K, V), retor-
-nando um novo pair RDD da forma (K, iterable<V>).
-• reduceByKey(func) - aplicado também em um pair RDD (K, V),
-agregando os valores de V pela função func para cada chave K.
-• pipe(command) - aplica para cada partição do RDD um comando
-shell. Qualquer linguagem com stdin, stdout pode ser utilizada.
-Algumas operações de ação são:
-• collect() - retorna todos os elementos do RDD como um array para
-o driver. Usado principalmente após uma operação de filtro para
-retornar poucos dados.
-• count() - retorno o número de elementos no RDD.
-• first() - retorna o primeiro elemento do dataset.
-• take(n) - retorna os primeiros n elementos do dataset.
-• saveAsTextFile(file) - salva o RDD em um arquivo de texto
+	• map (func) - retorna um novo RDD aplicando a função func em
+	cada elemento.
+	• filter (func) - retorn um novo RDD aplicando o filtro func.
+	• flatMap (func) - similar ao map, mas retornando mais itens ao invés
+	de apenas um.
+	• sample(withReplacement, fração, semente) - amostra aleatoriamente
+	uma fração dos dados com ou sem reposição usando a semente para
+	gerar os números aleatórios.
+	• union(rdd) - retorna um novo RDD que contém a união dos ele-
+	mentos do RDD original e do RDD passado como argumento.
+	• distinct() - retorna um novo dataset contendo os valores distintos
+	do RDD original.
+	• groupByKey() - aplicado em pair RDD’s da forma (K, V), retor-
+	nando um novo pair RDD da forma (K, iterable<V>).
+	• reduceByKey(func) - aplicado também em um pair RDD (K, V),
+	agregando os valores de V pela função func para cada chave K.
+	• pipe(command) - aplica para cada partição do RDD um comando
+	shell. Qualquer linguagem com stdin, stdout pode ser utilizada.
+	Algumas operações de ação são:
+	• collect() - retorna todos os elementos do RDD como um array para
+	o driver. Usado principalmente após uma operação de filtro para
+	retornar poucos dados.
+	• count() - retorno o número de elementos no RDD.
+	• first() - retorna o primeiro elemento do dataset.
+	• take(n) - retorna os primeiros n elementos do dataset.
+	• saveAsTextFile(file) - salva o RDD em um arquivo de texto
