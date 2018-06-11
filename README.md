@@ -1,37 +1,23 @@
 ### Java jdk
-Update repository:
-$ sudo add-apt-repository ppa:openjdk-r/ppa
-$ sudo apt-get update
+1. Update repository:
+	$ sudo add-apt-repository ppa:openjdk-r/ppa
+	$ sudo apt-get update
+2. Run the following command in Terminal:
+	$ sudo apt-get install openjdk-8-jdk
+	$ sudo apt-get install openjdk-8-source #this is optional, the jdk source code
 
-Run the following command in Terminal:
-
-$sudo apt-get install openjdk-8-jdk
-$ sudo apt-get install openjdk-8-source #this is optional, the jdk source code
-
-Type commandline as below...
-
-a$ pt-cache search jdk
-
+3. Type commandline as below...
+	$ apt-cache search jdk
 (Note: openjdk-8-jdk is symbolically used here. You can choose the JDK version as per your requirement.)
 
-For "JAVA_HOME" (Environment Variable) type command as shown below, in "Terminal" using your installation path...
-
-$ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
-
+4. For "JAVA_HOME" (Environment Variable) type command as shown below, in "Terminal" using your installation path...
+	$ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
 (Note: "/usr/lib/jvm/java-8-openjdk" is symbolically used here just for demostration. You should use your path as per your installation.)
-
-For "PATH" (Environment Variable) type command as shown below, in "Terminal" using your installation path...
-
-$ export PATH=$PATH:/usr/lib/jvm/java-8-openjdk/bin
-
+5. For "PATH" (Environment Variable) type command as shown below, in "Terminal" using your installation path...
+	$ export PATH=$PATH:/usr/lib/jvm/java-8-openjdk/bin
 (Note: "/usr/lib/jvm/java-8-openjdk" is symbolically used here just for demostration. You should use your path as per your installation.)
-
-Check for "open jdk" installation, just type command in "Terminal" as shown below
-
-$ javac -version
-
-
-
+6. Check for "open jdk" installation, just type command in "Terminal" as shown below
+	$ javac -version
 
 ### pip
 	$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
@@ -52,12 +38,12 @@ http://spark.apache.org/downloads.html
 	http://ftp.unicamp.br/pub/apache/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz 
 
 ### Pyspark
-$ sudo pip install pyspark
+	$ sudo pip install pyspark
 
 ### Interactive Analysis with the Spark Shell
-$ ./bin/spark-shell
+	$ ./bin/spark-shell
 ou
-$ pyspark
+	$ pyspark
 
 -----------------------------------------------------------------------------------------------
 
