@@ -1,3 +1,46 @@
+### Download Spark
+
+	http://spark.apache.org/downloads.html
+
+		http://ftp.unicamp.br/pub/apache/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz 
+
+### Pyspark
+	$ sudo pip install pyspark
+
+### Interactive Analysis with the Spark Shell
+	$ ./bin/spark-shell
+ou
+
+	$ pyspark
+
+-----------------------------------------------------------------------------------------------
+
+### Spark
+https://pt.linkedin.com/pulse/machine-learning-com-apache-spark-uma-introdu%C3%A7%C3%A3o-%C3%A0-de-teixeira-phd
+https://www.datacamp.com/community/tutorials/apache-spark-python
+https://spark.apache.org/docs/latest/quick-start.html
+
+https://www.devmedia.com.br/apache-spark-trabalhando-com-sql-em-aplicacoes-big-data/34251
+http://www.vitormeriat.com.br/2016/01/27/spark-alm-do-wordcount/
+https://docs.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-machine-learning-mllib-ipython
+https://www.infoq.com/br/articles/apache-spark-introduction
+
+### Spark examples
+https://spark.apache.org/examples.html
+https://github.com/apache/spark/tree/master/examples
+
+### Pyspark + Elastic Search
+https://github.com/TargetHolding/pyspark-elastic
+https://starsift.com/2018/01/18/integrating-pyspark-and-elasticsearch/
+https://qbox.io/blog/elasticsearch-in-apache-spark-python?utm_source=qbox.io&utm_medium=article&utm_campaign=elasticsearch-in-apache-spark-python
+
+### Apache Spark Streaming Tutorial: Identificando as Hashtags de Tendência do Twitter 
+http://gtezini.blogspot.com/2017/07/apache-spark-streaming-tutorial.html
+
+-----------------------------------------------------------------------------------------------
+
+## Requirements
+
 ### Java jdk
 Update repository
 
@@ -42,60 +85,18 @@ http://localhost:4040/jobs/
 
 
 -----------------------------------------------------------------------------------------------
-
-### Download Spark
-
-	http://spark.apache.org/downloads.html
-
-		http://ftp.unicamp.br/pub/apache/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz 
-
-### Pyspark
-	$ sudo pip install pyspark
-
-### Interactive Analysis with the Spark Shell
-	$ ./bin/spark-shell
-ou
-
-	$ pyspark
-
------------------------------------------------------------------------------------------------
-
-### Spark
-https://pt.linkedin.com/pulse/machine-learning-com-apache-spark-uma-introdu%C3%A7%C3%A3o-%C3%A0-de-teixeira-phd
-https://www.datacamp.com/community/tutorials/apache-spark-python
-https://spark.apache.org/docs/latest/quick-start.html
-
-https://www.devmedia.com.br/apache-spark-trabalhando-com-sql-em-aplicacoes-big-data/34251
-http://www.vitormeriat.com.br/2016/01/27/spark-alm-do-wordcount/
-https://docs.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-machine-learning-mllib-ipython
-https://www.infoq.com/br/articles/apache-spark-introduction
-
-### Spark examples
-https://spark.apache.org/examples.html
-https://github.com/apache/spark/tree/master/examples
-
-### Pyspark + Elastic Search
-https://github.com/TargetHolding/pyspark-elastic
-https://starsift.com/2018/01/18/integrating-pyspark-and-elasticsearch/
-https://qbox.io/blog/elasticsearch-in-apache-spark-python?utm_source=qbox.io&utm_medium=article&utm_campaign=elasticsearch-in-apache-spark-python
-
-### Apache Spark Streaming Tutorial: Identificando as Hashtags de Tendência do Twitter 
-http://gtezini.blogspot.com/2017/07/apache-spark-streaming-tutorial.html
-
------------------------------------------------------------------------------------------------
-
 ### Principais características:
-    O Spark é escrito na linguagem Scala e executa em uma máquina virtual Java (JVM).
-    Processamento rápido – todo o processamento em geral é feito em memória, e com reduzido processamento em disco, o que o torna muito mais rápido e eficiente.
-    Expande de maneira mais eficiente a capacidade de processamento de operações Map+Reduce.
-    Permite o processamento e tratamento de dados usando linguagem SQL, através da biblioteca SparkSQL.
-    Permite processamento em “tempo real” em streaming, com a biblioteca Spark Streaming.
-    Possibilita trabalhar com grafos com a biblioteca GraphX.
-    Realiza processamento de análises complexas (machine learning) através da biblioteca MLlib.
+- O Spark é escrito na linguagem Scala e executa em uma máquina virtual Java (JVM).
+- Processamento rápido – todo o processamento em geral é feito em memória, e com reduzido processamento em disco, o que o torna muito mais rápido e eficiente.
+- Expande de maneira mais eficiente a capacidade de processamento de operações Map+Reduce.
+- Permite o processamento e tratamento de dados usando linguagem SQL, através da biblioteca SparkSQL.
+- Permite processamento em “tempo real” em streaming, com a biblioteca Spark Streaming.
+- Possibilita trabalhar com grafos com a biblioteca GraphX.
+- Realiza processamento de análises complexas (machine learning) através da biblioteca MLlib.
 
 	Em resumo, o Spark possui 4 bibliotecas principais: SparkSQL, Streaming, GraphX e a biblioteca de Machine Learning, MLlib.
-	Além da linguagem Scala que é a linguagem “nativa”, o Spark também dispõe de APIs para outras 3 linguagens de programação: Python, R e Java. A figura abaixo mostra os principais componentes do Spark.
-	O Spark pode ser usado na sua máquina local, em modo Standalone, que é o ideal para aprender a usar, ou pode instalá-lo para uso em um cluster, para efetivamente trabalhar em processamento distribuído. N
+	Além da linguagem Scala que é a linguagem “nativa”, o Spark também dispõe de APIs para outras 3 linguagens de programação: Python, R e Java.
+	O Spark pode ser usado na sua máquina local, em modo Standalone, que é o ideal para aprender a usar, ou pode instalá-lo para uso em um cluster, para efetivamente trabalhar em processamento distribuído.
 
 -----------------------------------------------------------------------------------------------
 
