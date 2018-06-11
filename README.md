@@ -1,11 +1,11 @@
-## pip
+### Java jdk
+https://stackoverflow.com/questions/14788345/how-to-install-the-jdk-on-ubuntu-linux
+
+### pip
 $ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 $ sudo python get-pip.py
 
-## JAVA JDK
-https://stackoverflow.com/questions/14788345/how-to-install-the-jdk-on-ubuntu-linux
-
-## Apache
+### Apache
 $ sudo apt-get install apache2
 $ sudo pip install pyspark
 
@@ -14,6 +14,7 @@ http://localhost:4040/jobs/
 
 
 -----------------------------------------------------------------------------------------------
+
 ## Download Spark: spark-2.3.0-bin-hadoop2.7.tgz
 http://spark.apache.org/downloads.html
 	http://ftp.unicamp.br/pub/apache/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz 
@@ -27,6 +28,7 @@ ou
 $ pyspark
 
 -----------------------------------------------------------------------------------------------
+
 # Spark
 https://pt.linkedin.com/pulse/machine-learning-com-apache-spark-uma-introdu%C3%A7%C3%A3o-%C3%A0-de-teixeira-phd
 https://www.datacamp.com/community/tutorials/apache-spark-python
@@ -66,8 +68,9 @@ Além da linguagem Scala que é a linguagem “nativa”, o Spark também dispõ
 
 O Spark pode ser usado na sua máquina local, em modo Standalone, que é o ideal para aprender a usar, ou pode instalá-lo para uso em um cluster, para efetivamente trabalhar em processamento distribuído. N
 
-----------------------------------
-# exemplos de operações de transformação:
+-----------------------------------------------------------------------------------------------
+
+# Exemplos de operações de transformação:
 • map (func) - retorna um novo RDD aplicando a função func em
 cada elemento.
 • filter (func) - retorn um novo RDD aplicando o filtro func.
