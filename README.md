@@ -37,6 +37,7 @@ Check for "open jdk" installation, just type command in "Terminal" as shown belo
 	$ sudo pip install pyspark
 
 http://localhost:4040/
+
 http://localhost:4040/jobs/
 
 
