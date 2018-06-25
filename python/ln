@@ -1,0 +1,21 @@
+Spark SQL, DataFrames and Datasets Guide
+https://spark.apache.org/docs/latest/sql-programming-guide.html#datasets-and-dataframes
+
+RDD Programming Guide
+https://spark.apache.org/docs/latest/rdd-programming-guide.html
+
+Structured Streaming Programming Guide
+https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html
+https://spark.apache.org/docs/latest/streaming-programming-guide.html
+
+Machine Learning Library (MLlib) Guide
+https://spark.apache.org/docs/latest/ml-guide.html
+
+GraphX Programming Guide
+https://spark.apache.org/docs/latest/graphx-programming-guide.html
+
+Powering Big Data Processing in Postgres with Apache Spark
+https://www.enterprisedb.com/blog/powering-big-data-processing-postgres-apache-spark
+
+Exxamples
+https://github.com/apache/spark/tree/master/examples/src/main/python
