@@ -127,3 +127,55 @@ http://localhost:4040/jobs/
 	• first() - retorna o primeiro elemento do dataset.
 	• take(n) - retorna os primeiros n elementos do dataset.
 	• saveAsTextFile(file) - salva o RDD em um arquivo de texto
+
+
+
+
+
+
+
+rdd, datasets, dataframes é como qualquer modelo  lógico global 
+para um banco de dados distribuido
+
+
+Tipos de Gerenciador de Cluster
+Atualmente, o sistema suporta três gerenciadores de cluster:
+
+Independente - um gerenciador de cluster simples incluído no Spark que facilita a configuração de um cluster.
+Apache Mesos - um gerenciador de cluster geral que também pode executar o Hadoop MapReduce e aplicativos de serviço.
+Hadoop YARN - o gerenciador de recursos no Hadoop 2.
+Kubernetes - um sistema de código aberto para automatizar a implantação, o dimensionamento e o gerenciamento de aplicativos em contêiner.
+
+
+Os aplicativos Spark são executados como conjuntos independentes de processos em um cluster, coordenados pelo SparkContext objeto em seu programa principal (chamado programa do driver ).
+
+
+Troubleshooting
+JDBC To Other Databases
+JSON Datasets
+Schema Merging
+
+
+
+Apache Spark é um engine rápido e de uso geral
+para processamento de dados em larga escala
+
+Utiliza o Hadoop (HDFS) como base, mas pode ser
+usado com Cassandra, HBase e MongoDB
+
+Executa sobre o YARN cluster manager e permite
+leitura e escrita de dados no HDFS
+
+Com Spark o processamento é feito em memória
+
+
+Você pode executar o Spark usando seu modo de cluster autônomo , no EC2 , no Hadoop YARN , no Mesos ou no Kubernetes . Acesse dados no HDFS , no Apache Cassandra , no Apache HBase , no Apache Hive e em centenas de outras fontes de dados.
+
+
+
+
+Visão geral do Spark
+O Apache Spark é um sistema de computação em cluster rápido e de uso geral. Ele fornece APIs de alto nível em Java, Scala, Python e R e um mecanismo otimizado que suporta gráficos gerais de execução. Ele também suporta um conjunto avançado de ferramentas de nível superior, incluindo o Spark SQL para SQL e o processamento de dados estruturados, MLlib para aprendizado de máquina, GraphX para processamento de gráficos e Spark Streaming .
+
+
+
