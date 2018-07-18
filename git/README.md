@@ -1,12 +1,11 @@
+###INE5404 UFSC - Vídeo-aula sobre Git
 
-INE5404 UFSC - Vídeo-aula sobre Git
+https://www.youtube.com/watch?v=gDXVbTRHGUI
 
-    https://www.youtube.com/watch?v=gDXVbTRHGUI
+###Git
 
-Git
+https://github.com/Marlonts/ped-st/blob/master/git/git.pdf
 
-    https://github.com/Marlonts/ped-st/blob/master/git/git.pdf
+###GitHub
 
-GitHub
-
-    https://github.com/Marlonts/ped-st/blob/master/git/github.pdf
+       https://github.com/Marlonts/ped-st/blob/master/git/github.pdf
